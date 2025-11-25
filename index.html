@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ML Workshop Landing Page</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav">
+    <div class="brand">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712105.png" class="icon-logo" />
+      <span class="brand-text">ML Workshop</span>
+    </div>
+
+    <nav class="menu">
+      <a href="#about">About</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#instructors">Instructors</a>
+      <a href="#contact">Contact</a>
+      <a href="#register" class="btn-primary">Register Now</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="about">
+  <div class="container">
+    
+    <div class="hero-badge">⚡ Limited Seats Available - Register Today!</div>
+
+    <h1 class="hero-title">
+      Master Machine Learning
+      <span class="gradient">in 5 Days</span>
+    </h1>
+
+    <p class="hero-subtitle">
+      Join industry experts for a 5-day hands-on workshop covering deep learning, real-world AI engineering & advanced ML model building.
+    </p>
+
+    <!-- DATE / TIME / LOCATION -->
+    <div class="info-card-wrapper">
+      <div class="info-card">
+        <h3>📅 Workshop Dates</h3>
+        <p class="info-main">Dec 15–19, 2025</p>
+        <p class="info-sub">5 Full Days</p>
+      </div>
+      <div class="info-card">
+        <h3>⏰ Session Time</h3>
+        <p class="info-main">9:00 AM – 5:00 PM</p>
+        <p class="info-sub">PST (UTC-8)</p>
+      </div>
+      <div class="info-card">
+        <h3>📍 Location</h3>
+        <p class="info-main">Hybrid Format</p>
+        <p class="info-sub">In-Person & Virtual</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- INSTRUCTORS -->
+<section class="section" id="instructors">
+  <div class="container">
+    <h2 class="section-title">Meet Your Expert Instructors</h2>
+
+    <div class="instructors">
+      <div class="instructor-card">
+        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah" class="avatar"/>
+        <h3>Dr. Sarah Chen</h3>
+        <p class="role">AI Research Lead</p>
+        <p class="company">Tech AI Labs</p>
+        <p class="bio">15+ years in deep learning & computer vision with 50+ publications.</p>
+      </div>
+
+      <div class="instructor-card">
+        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Michael" class="avatar"/>
+        <h3>Prof. Michael Rodriguez</h3>
+        <p class="role">ML Professor</p>
+        <p class="company">Stanford University</p>
+        <p class="bio">Expert in NLP, neural networks & research lead at Meta AI.</p>
+      </div>
+
+      <div class="instructor-card">
+        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Priya" class="avatar"/>
+        <h3>Dr. Priya Sharma</h3>
+        <p class="role">Deep Learning Engineer</p>
+        <p class="company">Google AI</p>
+        <p class="bio">Specializes in TensorFlow, PyTorch & production ML systems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU WILL LEARN -->
+<section class="section dark">
+  <div class="container">
+    <h2 class="section-title">What You'll Learn</h2>
+
+    <div class="learn-grid">
+      <div class="learn-card">
+        <h3>Deep Learning Foundations</h3>
+        <p>Neural networks, backpropagation, activation functions & optimization.</p>
+      </div>
+
+      <div class="learn-card">
+        <h3>Computer Vision</h3>
+        <p>CNNs, object detection, segmentation & real image datasets.</p>
+      </div>
+
+      <div class="learn-card">
+        <h3>Natural Language Processing</h3>
+        <p>Transformers, BERT, GPT, embeddings & chatbot creation.</p>
+      </div>
+
+      <div class="learn-card">
+        <h3>ML in Production</h3>
+        <p>Deployment, monitoring, scaling & real-world ML pipelines.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REGISTRATION -->
+<section class="section" id="register">
+  <div class="container form-wrapper">
+
+    <h2 class="section-title">Reserve Your Spot</h2>
+
+    <form class="form">
+      <input type="text" placeholder="Full Name*" required />
+      <input type="email" placeholder="Email Address*" required />
+      <input type="tel" placeholder="Phone Number*" required />
+      <input type="text" placeholder="City*" required />
+
+      <select required>
+        <option value="">ML Experience Level*</option>
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+      </select>
+
+      <div class="radio-group">
+        <label><input type="radio" name="mode" checked /> Virtual</label>
+        <label><input type="radio" name="mode" /> In-Person</label>
+      </div>
+
+      <button class="btn-primary full-btn">Complete Registration</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="contact">
+  <div class="container footer-grid">
+
+    <div>
+      <h3>ML Workshop</h3>
+      <p>Empowering future AI leaders through hands-on learning.</p>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#about">About</a><br>
+      <a href="#instructors">Instructors</a><br>
+      <a href="#register">Register</a>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>Email: info@mlworkshop.com</p>
+      <p>Phone: +1 (234) 567-890</p>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">© 2025 ML Workshop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
